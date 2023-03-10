@@ -1,0 +1,5 @@
+
+- Figure out how factorInAces function handles 2 aces in a hand. 
+
+- BUGS:
+  - 

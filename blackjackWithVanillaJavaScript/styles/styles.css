@@ -1,0 +1,57 @@
+
+body{
+  background-color: rgb(223, 240, 255);
+}
+
+.main-container{
+  background-color:lightblue;
+  height: 100vh;
+}
+
+  .messageContainer{
+    background-color:rgb(136, 210, 213);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-size: 2.5vh;
+  }
+
+  .label-container{
+    background-color: rgb(205, 232, 255);
+    font-size: 3vh;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+  }
+
+    .hand{
+      background-color: rgb(136, 194, 213);
+      height: 25vh;
+      border-radius: 10px;
+      border: solid rgba(218, 110, 128, 0.759) 2px;
+      padding: 10px;
+      overflow: scroll;
+      display: flex;
+      align-items: center;
+    }
+
+      .card{
+        height: 22vh;
+        width: auto;
+        margin-right: 10px;
+      }
+
+
+
+
+
+/* Media queries for screens below 500px in width */
+/* 
+@media (max-width: 500px){
+  .messageContainer{
+    font-size: 15px;
+  }
+} */
